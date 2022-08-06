@@ -20,7 +20,7 @@ Requiriments: numpy, pillow
  <li>repeats this process for every tile and combines tiles in one picture</li>
  </ol>
  
- <img src = 'noise.png' width = 500>
+ <img src = 'noise_texture.png' width = 500>
  
   Why? Because in future im planning on develop this method and create new algorythms of generating noise on top of it.
  
