@@ -6,6 +6,9 @@ Requiriments: numpy, pillow
 
 <hr>
 <b>simple_noise.py</b> generates noise texture by assigning every element of a 2D array with random integer in range of 0..255
+<br>
+<br>
+<img src = 'simple.png' width = 500>
 <hr>
 <b>RNTG.py</b> generates noise texture based on following algorythm:
 <br>
@@ -16,6 +19,8 @@ Requiriments: numpy, pillow
  <li>converts this array in a way that its maximum is set to 255 and minimum is set to 0</li>
  <li>repeats this process for every tile and combines tiles in one picture</li>
  </ol>
+ 
+ <img src = 'noise.png' width = 500>
  
   Why? Because in future im planning on develop this method and create new algorythms of generating noise on top of it.
  
