@@ -13,5 +13,5 @@ for i in range(HEIGHT):
 a = np.array(a, dtype=np.uint8)
 
 img = Image.fromarray(a)
-img.save('simple.png')
+img.save('simple_noise.png')
 img.show()
