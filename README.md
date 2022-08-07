@@ -25,6 +25,7 @@ Requiriments: numpy, pillow
   Why? Because in future im planning on develop this method and create new algorythms of generating noise on top of it.
  
  Issue: because <i>max-min</i> value is different for every tile they appear non consistent in the final result. Temporary solution is taking <i>max-min</i> of first tile and using it for the whole list of tiles.
- 
+<hr>
+<b>RNTG_x.py</b> Same as RNTG.py but if particular point has a value different than 0, creates "+" shape at this point
 
-
+ <img src = 'noise_x.png' width = 500>
